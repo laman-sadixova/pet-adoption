@@ -10,6 +10,7 @@ import Hero from "./components/Hero/Hero";
 import AnimalList from "./components/AnimalList/AnimalList";
 import Pagination from "./components/Pagination/Pagination";
 import AnimalFilters from "./components/AnimalFilters/AnimalFilters";
+import Banner from "./components/Banner/Banner";
 
 const ANIMALS_PER_PAGE = 9;
 
@@ -129,6 +130,7 @@ export default function Home() {
         totalPages={totalPages}
         pageChange={handlePageChange}
       />
+      <Banner />
     </div>
   );
 }
