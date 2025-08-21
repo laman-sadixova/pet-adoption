@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgba(254, 176, 95, 1);
+  color: white;
+}
+.logo {
+  display: flex;
+
+  align-items: center;
+  gap: 16px;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav a {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.button {
+  color: #35bcbf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}

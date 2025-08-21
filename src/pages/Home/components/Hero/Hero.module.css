@@ -1,0 +1,43 @@
+.hero {
+  background-color: rgba(254, 176, 95, 1);
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heroInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
+}
+
+.heroTitle {
+  color: beige;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.heroSubtitle {
+  color: beige;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.image {
+  max-width: 500px;
+  max-height: 550px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}

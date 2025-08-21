@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #90f6d7;
+  color: white;
+}
+.socials {
+  display: flex;
+  gap: 20px;
+}
+.info {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.icon {
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  color: #263849;
+}

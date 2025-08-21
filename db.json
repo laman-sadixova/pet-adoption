@@ -1,0 +1,268 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Bella",
+      "type": "Dog",
+      "age": 3,
+      "breed": "Chow Chow",
+      "location": "New York",
+      "gender": "Female",
+      "description": "Fluffy Chow Chow with a lion-like mane and a confident, charming personality—loves attention and leisurely walks.",
+      "image": "/images/bella.avif"
+    },
+    {
+      "id": 2,
+      "name": "Max",
+      "type": "Dog",
+      "age": 1,
+      "breed": "Goldendoodle",
+      "location": "Los Angeles",
+      "gender": "Male",
+      "description": "Cheerful Goldendoodle with a soft, curly coat—gentle, playful, and great with kids.",
+      "image": "/images/max.avif"
+    },
+    {
+      "id": 3,
+      "name": "Luna",
+      "type": "Cat",
+      "age": 2,
+      "breed": "Domestic Shorthair",
+      "location": "Chicago",
+      "gender": "Female",
+      "description": "Friendly black-and-white Domestic Shorthair cat—alert, affectionate, and easygoing.",
+      "image": "/images/luna.avif"
+    },
+    {
+      "id": 4,
+      "name": "Charlie",
+      "type": "Dog",
+      "age": 4,
+      "breed": "Beagle",
+      "location": "Houston",
+      "gender": "Male",
+      "description": "Friendly and curious Beagle with a keen nose—great companion for active walks and outdoor adventures.",
+      "image": "/images/charlie.avif"
+    },
+    {
+      "id": 5,
+      "name": "Milo",
+      "type": "Cat",
+      "age": 1,
+      "breed": "Bombay",
+      "location": "San Francisco",
+      "gender": "Male",
+      "description": "Sleek black Bombay kitten—playful, curious, and loves exploring every corner of the home.",
+      "image": "/images/milo.avif"
+    },
+    {
+      "id": 6,
+      "name": "Rocky",
+      "type": "Dog",
+      "age": 6,
+      "breed": "Cocker Spaniel",
+      "location": "Denver",
+      "gender": "Male",
+      "description": "Energetic Cocker Spaniel with long, floppy ears—loves fetch and friendly with everyone.",
+      "image": "/images/rocky.avif"
+    },
+    {
+      "id": 7,
+      "name": "Cleo",
+      "type": "Cat",
+      "age": 3,
+      "breed": "Domestic Shorthair",
+      "location": "Seattle",
+      "gender": "Female",
+      "description": "Playful ginger-and-white Domestic Shorthair cat with a curious and spirited personality.",
+      "image": "/images/cleo.avif"
+    },
+    {
+      "id": 8,
+      "name": "Daisy",
+      "type": "Dog",
+      "age": 2,
+      "breed": "Schnauzer",
+      "location": "Boston",
+      "gender": "Female",
+      "description": "Alert and intelligent Schnauzer with a distinctive beard—loyal and playful companion.",
+      "image": "/images/daisy.avif"
+    },
+    {
+      "id": 9,
+      "name": "Oliver",
+      "type": "Cat",
+      "age": 4,
+      "breed": "Domestic Shorthair",
+      "location": "Portland",
+      "gender": "Male",
+      "description": "Calm ginger Domestic Shorthair cat—enjoys sunbathing and gentle petting.",
+      "image": "/images/oliver.avif"
+    },
+    {
+      "id": 10,
+      "name": "Buddy",
+      "type": "Dog",
+      "age": 3,
+      "breed": "Shih Tzu",
+      "location": "Miami",
+      "gender": "Male",
+      "description": "Affectionate Shih Tzu with a charming face—loves cuddles and short walks.",
+      "image": "/images/buddy.avif"
+    },
+    {
+      "id": 11,
+      "name": "Nala",
+      "type": "Cat",
+      "age": 2,
+      "breed": "Scottish Fold",
+      "location": "Atlanta",
+      "gender": "Female",
+      "description": "Sweet Scottish Fold with round eyes and folded ears—gentle and loves cozy naps.",
+      "image": "/images/nala.avif"
+    },
+    {
+      "id": 12,
+      "name": "Zeus",
+      "type": "Dog",
+      "age": 1,
+      "breed": "Poodle Mix",
+      "location": "Phoenix",
+      "gender": "Male",
+      "description": "Playful and friendly Poodle Mix puppy—curly coat, intelligent, and quick to learn tricks.",
+      "image": "/images/zeus.avif"
+    },
+    {
+      "id": 13,
+      "name": "Ruby",
+      "type": "Dog",
+      "age": 3,
+      "breed": "Jack Russell Terrier",
+      "location": "Dallas",
+      "gender": "Female",
+      "description": "Lively Jack Russell Terrier with boundless energy—playful, curious and always ready for action.",
+      "image": "/images/ruby.avif"
+    },
+    {
+      "id": 14,
+      "name": "Shadow",
+      "type": "Cat",
+      "age": 4,
+      "breed": "Scottish Fold",
+      "location": "Austin",
+      "gender": "Male",
+      "description": "Charming Scottish Fold with round face and folded ears—gentle, affectionate and loves cozy naps.",
+      "image": "/images/shadow.avif"
+    },
+    {
+      "id": 15,
+      "name": "Pepper",
+      "type": "Dog",
+      "age": 2,
+      "breed": "Great Dane",
+      "location": "Nashville",
+      "gender": "Female",
+      "description": "Gentle Great Dane with sleek coat—majestic, loyal and surprisingly affectionate for her size.",
+      "image": "/images/pepper.avif"
+    },
+    {
+      "id": 16,
+      "name": "Smokey",
+      "type": "Cat",
+      "age": 5,
+      "breed": "Persian",
+      "location": "San Diego",
+      "gender": "Male",
+      "description": "Fluffy Persian with long silvery coat—quiet and dignified, enjoys comfort and gentle affection.",
+      "image": "/images/smokey.avif"
+    },
+    {
+      "id": 17,
+      "name": "Copper",
+      "type": "Dog",
+      "age": 4,
+      "breed": "Border Collie",
+      "location": "Milwaukee",
+      "gender": "Male",
+      "description": "Smart and agile Border Collie with striking coat—highly intelligent, loves training and outdoor activities.",
+      "image": "/images/copper.avif"
+    },
+    {
+      "id": 18,
+      "name": "Ivy",
+      "type": "Cat",
+      "age": 2,
+      "breed": "British Shorthair (Golden Shaded)",
+      "location": "Las Vegas",
+      "gender": "Female",
+      "description": "Adorable British Shorthair with golden shaded coat—calm, affectionate and enjoys gentle playtime.",
+      "image": "/images/ivy.avif"
+    },
+    {
+      "id": 19,
+      "name": "Ranger",
+      "type": "Dog",
+      "age": 7,
+      "breed": "Great Dane",
+      "location": "Columbus",
+      "gender": "Male",
+      "description": "Impressive black Great Dane—loyal, protective and affectionate giant who loves his family deeply.",
+      "image": "/images/ranger.avif"
+    },
+    {
+      "id": 20,
+      "name": "Willow",
+      "type": "Cat",
+      "age": 3,
+      "breed": "British Shorthair (Silver Shaded)",
+      "location": "Minneapolis",
+      "gender": "Female",
+      "description": "Beautiful British Shorthair with silver shaded coat and green eyes—gentle, elegant and calm companion.",
+      "image": "/images/willow.avif"
+    },
+    {
+      "id": 21,
+      "name": "Scout",
+      "type": "Dog",
+      "age": 3,
+      "breed": "Labrador Retriever (Chocolate)",
+      "location": "Tampa",
+      "gender": "Male",
+      "description": "Friendly chocolate Labrador Retriever—playful, loving and always eager for outdoor adventures.",
+      "image": "/images/scout.avif"
+    },
+    {
+      "id": 22,
+      "name": "Duchess",
+      "type": "Cat",
+      "age": 4,
+      "breed": "Turkish Angora",
+      "location": "Orlando",
+      "gender": "Female",
+      "description": "Elegant Turkish Angora with long white fur—graceful, affectionate and enjoys being the center of attention.",
+      "image": "/images/duchess.avif"
+    },
+    {
+      "id": 23,
+      "name": "Finn",
+      "type": "Dog",
+      "age": 3,
+      "breed": "Labrador Retriever (Yellow)",
+      "location": "Charlotte",
+      "gender": "Male",
+      "description": "Gentle yellow Labrador Retriever—loyal, friendly and perfect companion for family activities.",
+      "image": "/images/finn.avif"
+    },
+    {
+      "id": 24,
+      "name": "Misty",
+      "type": "Cat",
+      "age": 2,
+      "breed": "Russian Blue",
+      "location": "Indianapolis",
+      "gender": "Female",
+      "description": "Elegant Russian Blue with emerald eyes and silvery coat—quiet, graceful and deeply affectionate.",
+      "image": "/images/misty.avif"
+    }
+  ]
+}
