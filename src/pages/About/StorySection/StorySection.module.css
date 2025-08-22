@@ -1,0 +1,30 @@
+.story {
+  padding: 40px 20px;
+  border-radius: 20px 80px 20px 80px;
+  margin-bottom: 60px;
+  background-color: #eadca6;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.storyContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.storyImage {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px 80px 20px 80px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.storyInfo {
+  max-width: 500px;
+  text-align: left;
+}

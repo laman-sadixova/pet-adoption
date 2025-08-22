@@ -264,5 +264,32 @@
       "description": "Elegant Russian Blue with emerald eyes and silvery coat—quiet, graceful and deeply affectionate.",
       "image": "/images/misty.avif"
     }
-  ]
+  ],
+  "about": {
+    "title": "Our Mission",
+    "description": "We’ve met cats who flinch at every sound and dogs who wait quietly by the door, hoping someone comes back. We’ve seen them heal — slowly, beautifully — with a little care and a lot of love. Our mission is to help more of them find their second chance. We connect dogs and cats with people who see past the fear, past the past — and offer something every animal deserves: safety, belonging, and a forever home.",
+    "image": "/images/ourMission.jpg",
+    "story": {
+      "title": "Our Story",
+      "description": "We didn’t start with a big plan — just a handful of rescues and a lot of hope. Along the way, we faced heartbreaks: pets lost to illness, tough decisions about who could be saved, and the weight of so many animals still waiting. But we also saw miracles — once-frightened dogs wagging their tails, cats curling up in warm laps, and families transformed by the love of a rescued pet. Our story is a work in progress, shaped by real people, real struggles, and the simple truth that no one should face life alone.",
+      "image": "/images/ourStory.jpeg"
+    },
+    "values": [
+      {
+        "title": "Love",
+        "description": "We believe every pet deserves unconditional love and a caring home.",
+        "icon": "heart"
+      },
+      {
+        "title": "Care",
+        "description": "We ensure pets are healthy and ready for adoption with proper care.",
+        "icon": "paw"
+      },
+      {
+        "title": "Responsibility",
+        "description": "We promote responsible pet ownership to ensure lifelong happiness.",
+        "icon": "shield"
+      }
+    ]
+  }
 }

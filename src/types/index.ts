@@ -9,3 +9,22 @@ export interface Animal {
   description?: string;
   image?: string;
 }
+export interface Value {
+  title: string;
+  description: string;
+  icon: "heart" | "paw" | "shield";
+}
+
+export interface Story {
+  title: string;
+  description: string;
+  image?: string;
+}
+
+export interface AboutData {
+  title: string;
+  description: string;
+  image?: string;
+  story?: Story;
+  values?: Value[];
+}

@@ -1,0 +1,30 @@
+.mission {
+  padding: 20px 40px;
+  background-color: #eadca6;
+  border-radius: 80px 20px 80px 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.missionContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.missionImage {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 80px 20px 80px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.missionInfo {
+  max-width: 500px;
+  text-align: left;
+}

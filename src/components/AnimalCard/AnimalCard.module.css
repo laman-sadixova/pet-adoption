@@ -67,25 +67,45 @@
 }
 
 .dogBtn {
-  background: linear-gradient(135deg, #a0ffe6, #90f6d7);
+  background: #ffdef7;
+  background: radial-gradient(
+    circle,
+    rgba(255, 222, 247, 1) 0%,
+    rgba(148, 212, 201, 1) 77%
+  );
   border: 1px solid #90f6d7;
-  color: #2c5530;
+  color: #606470;
 }
 .dogBtn:hover {
-  background: linear-gradient(135deg, #80e6cc, #70d6b7);
+  background: #ffdef7;
+  background: radial-gradient(
+    circle,
+    rgba(255, 222, 247, 1) 0%,
+    rgba(148, 212, 201, 1) 77%
+  );
   border-color: #70d6b7;
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(144, 246, 215, 0.3);
 }
 .catBtn {
-  background: linear-gradient(135deg, #feb05f, #ff9393);
+  background: #f79a20;
+  background: radial-gradient(
+    circle,
+    rgba(247, 154, 32, 1) 0%,
+    rgba(255, 151, 125, 1) 100%
+  );
   border: 1px solid #feb05f;
   color: white;
 }
 .catBtn:hover {
-  color: white;
-  background: linear-gradient(135deg, #ff9393, #ff6767);
+  color: #d32d2d;
+  background: #f79a20;
+  background: radial-gradient(
+    circle,
+    rgba(247, 154, 32, 1) 0%,
+    rgba(255, 151, 125, 1) 100%
+  );
   border-color: #ff6767;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(255, 147, 147, 0.3);
@@ -156,8 +176,8 @@
 .detailsFavoriteBtn svg {
   width: 26px;
   height: 26px;
-  
 }
+
 .imageContainer {
   position: relative;
   width: 400px;

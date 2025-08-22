@@ -21,7 +21,12 @@
 }
 
 .type {
-  background: linear-gradient(135deg, #feb05f, #ff9393);
+  background: #f79a20;
+  background: radial-gradient(
+    circle,
+    rgba(247, 154, 32, 1) 0%,
+    rgba(255, 151, 125, 1) 100%
+  );
   color: white;
   padding: 8px 16px;
   border-radius: 20px;
@@ -103,9 +108,14 @@
 
 .backBtn {
   padding: 12px 24px;
-  background: linear-gradient(135deg, #e9ecef, #dee2e6);
+  background: #f79a20;
+  background: radial-gradient(
+    circle,
+    rgba(247, 154, 32, 1) 0%,
+    rgba(255, 151, 125, 1) 100%
+  );
   border-radius: 12px;
-  color: #4a3b31;
+  color: white;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
@@ -116,7 +126,12 @@
 }
 
 .backBtn:hover {
-  background: linear-gradient(135deg, #ffe165, #ffed4e);
+  background: #f79a20;
+  background: radial-gradient(
+    circle,
+    rgba(247, 154, 32, 1) 0%,
+    rgba(255, 151, 125, 1) 100%
+  );
   color: #4a3b31;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(255, 225, 101, 0.3);
@@ -124,7 +139,12 @@
 
 .adoptBtn {
   padding: 12px 30px;
-  background: linear-gradient(135deg, #feb05f, #ff9393);
+  background: #f79a20;
+  background: radial-gradient(
+    circle,
+    rgba(247, 154, 32, 1) 0%,
+    rgba(255, 151, 125, 1) 100%
+  );
   border-radius: 12px;
   color: white;
   border: none;
@@ -137,7 +157,13 @@
 }
 
 .adoptBtn:hover {
-  background: linear-gradient(135deg, #ff9393, #ff6767);
+  color: #4a3b31;
+  background: #f79a20;
+  background: radial-gradient(
+    circle,
+    rgba(247, 154, 32, 1) 0%,
+    rgba(255, 151, 125, 1) 100%
+  );
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(255, 147, 147, 0.4);
 }

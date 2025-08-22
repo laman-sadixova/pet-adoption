@@ -39,22 +39,42 @@
 }
 
 .prevButton {
-  background: linear-gradient(135deg, #a0ffe6, #90f6d7);
+  background: #ffdef7;
+  background: radial-gradient(
+    circle,
+    rgba(255, 222, 247, 1) 0%,
+    rgba(148, 212, 201, 1) 77%
+  );
   border-color: #90f6d7;
   color: #2c5530;
 }
 .nextButton {
-  background: linear-gradient(135deg, #feb05f, #ff9393);
+  background: #f79a20;
+  background: radial-gradient(
+    circle,
+    rgba(247, 154, 32, 1) 0%,
+    rgba(255, 151, 125, 1) 100%
+  );
   border-color: #feb05f;
   color: white;
 }
 .prevButton:hover:not(:disabled) {
-  background: linear-gradient(135deg, #80e6cc, #70d6b7);
+  background: #ffdef7;
+  background: radial-gradient(
+    circle,
+    rgba(255, 222, 247, 1) 0%,
+    rgba(148, 212, 201, 1) 77%
+  );
   border-color: #70d6b7;
   color: white;
 }
 .nextButton:hover:not(:disabled) {
-  background: linear-gradient(135deg, #ff9393, #ff6767);
+  background: #f79a20;
+  background: radial-gradient(
+    circle,
+    rgba(247, 154, 32, 1) 0%,
+    rgba(255, 151, 125, 1) 100%
+  );
   border-color: #ff6767;
 }
 .pageInfo {
