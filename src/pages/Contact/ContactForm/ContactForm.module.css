@@ -39,6 +39,10 @@
   outline: none;
 }
 
+.inputError {
+  border-color: #f98e90;
+}
+
 .textarea {
   resize: vertical;
   min-height: 120px;
@@ -65,13 +69,8 @@
   cursor: not-allowed;
 }
 
-.status {
-  text-align: center;
-  color: #94dd4d;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.status.error {
+.error {
   color: #f98e90;
+  font-size: 14px;
+  font-weight: 500;
 }
