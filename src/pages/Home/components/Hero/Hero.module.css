@@ -41,3 +41,10 @@
   height: auto;
   object-fit: contain;
 }
+
+.status {
+  text-align: center;
+  color: #f98e90;
+  font-size: 18px;
+  font-weight: 500;
+}

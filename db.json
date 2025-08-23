@@ -292,5 +292,16 @@
       }
     ]
   },
-  "contacts": []
+  "contacts": [],
+  "hero": {
+    "title": "Your new best friend is waiting for you!",
+    "subtitle": "Every pawprint tells a story — one of hope, resilience, and unconditional love. In shelters across the world, animals wait not for perfection, but for a heart willing to care. You don’t just rescue them — they rescue you right back, in the most unexpected ways. Open your heart and find more than a pet — find a lifelong companion. Your new best friend is closer than you think.",
+    "image": "/images/dog.png"
+  },
+  "banner": {
+    "title": "Give a Pet a Forever Home",
+    "subtitle": "Discover the joy of adoption. Our pets are waiting for a loving family like yours. Take the first step today!",
+    "image": "/images/peepingCat.png",
+    "buttonText": "Adopt Now"
+  }
 }

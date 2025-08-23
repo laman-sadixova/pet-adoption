@@ -1,22 +1,49 @@
+import { useState, useEffect } from "react";
+import type { HeroData } from "../../../../types";
+import { api } from "../../../../services/api";
 import styles from "./Hero.module.css";
 
 export default function Hero() {
+  const [heroData, setHeroData] = useState<HeroData | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+
+  useEffect(() => {
+    const fetchHeroData = async () => {
+      try {
+        const response = await api.get<HeroData>("/hero");
+        setHeroData(response.data);
+        setLoading(false);
+      } catch {
+        setError("Failed to load hero data");
+        setLoading(false);
+      }
+    };
+
+    fetchHeroData();
+  }, []);
+
+  if (loading) {
+    return <div className={styles.status}>Loading...</div>;
+  }
+  if (error) {
+    return <div className={styles.status}>Error: {error}</div>;
+  }
+  if (!heroData) {
+    return null;
+  }
+
   return (
     <div className={styles.hero}>
       <div className={styles.heroContent}>
-        <img src="/images/dog.png" className={styles.image} />
+        <img
+          src={heroData.image}
+          className={styles.image}
+          alt="Hero pet image"
+        />
         <div className={styles.heroInfo}>
-          <h2 className={styles.heroTitle}>
-            Your new best friend is waiting for you!
-          </h2>
-          <p className={styles.heroSubtitle}>
-            Every pawprint tells a story — one of hope, resilience, and
-            unconditional love. In shelters across the world, animals wait not
-            for perfection, but for a heart willing to care. You don’t just
-            rescue them — they rescue you right back, in the most unexpected
-            ways. Open your heart and find more than a pet — find a lifelong
-            companion. Your new best friend is closer than you think.
-          </p>
+          <h2 className={styles.heroTitle}>{heroData.title}</h2>
+          <p className={styles.heroSubtitle}>{heroData.subtitle}</p>
         </div>
       </div>
     </div>

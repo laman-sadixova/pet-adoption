@@ -35,3 +35,16 @@ export interface ContactData {
   email: string;
   message: string;
 }
+
+export interface HeroData {
+  title: string;
+  subtitle: string;
+  image: string;
+}
+
+export interface BannerData {
+  title: string;
+  subtitle: string;
+  image: string;
+  buttonText: string;
+}

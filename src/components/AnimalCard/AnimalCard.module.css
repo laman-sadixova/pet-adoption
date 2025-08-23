@@ -110,11 +110,14 @@
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(255, 147, 147, 0.3);
 }
+
 .status {
   text-align: center;
-  padding: 20px;
+  color: #f98e90;
   font-size: 18px;
+  font-weight: 500;
 }
+
 .title {
   color: #584b42;
   border: 1px dashed #ccc;
