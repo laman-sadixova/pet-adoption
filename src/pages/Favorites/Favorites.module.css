@@ -3,7 +3,9 @@
   flex-direction: column;
   align-items: center;
   padding: 42px 22px;
-  margin: 100px;
+  width: 100%;
+  margin: 0 auto;
+  background: #fbfbfb;
 }
 .title {
   font-size: 46px;

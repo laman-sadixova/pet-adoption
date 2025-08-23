@@ -276,20 +276,21 @@
     },
     "values": [
       {
-        "title": "Love",
-        "description": "We believe every pet deserves unconditional love and a caring home.",
+        "title": "Compassion",
+        "description": "We care for every pet.",
         "icon": "heart"
       },
       {
         "title": "Care",
-        "description": "We ensure pets are healthy and ready for adoption with proper care.",
+        "description": "We ensure their well-being.",
         "icon": "paw"
       },
       {
-        "title": "Responsibility",
-        "description": "We promote responsible pet ownership to ensure lifelong happiness.",
+        "title": "Trust",
+        "description": "We build trust with adopters.",
         "icon": "shield"
       }
     ]
-  }
+  },
+  "contacts": []
 }

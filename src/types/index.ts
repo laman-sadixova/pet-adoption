@@ -28,3 +28,10 @@ export interface AboutData {
   story?: Story;
   values?: Value[];
 }
+
+export interface ContactData {
+  id?: number;
+  name: string;
+  email: string;
+  message: string;
+}
